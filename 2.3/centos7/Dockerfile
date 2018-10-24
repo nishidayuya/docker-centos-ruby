@@ -1,7 +1,7 @@
 FROM nishidayuya/centos-buildpack-deps:centos7
 MAINTAINER Yuya.Nishida.
 
-# Following codes are modified from:
+# The following is based on:
 # https://github.com/docker-library/ruby/blob/36c87bb64362de2e6e9ea003104030ca2a5fc4e5/2.3/stretch/slim/Dockerfile
 
 # skip installing gem documentation
