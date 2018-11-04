@@ -1,8 +1,8 @@
-FROM centos:7
+FROM centos:centos7
 MAINTAINER Yuya.Nishida.
 
 # The following is based on:
-# https://github.com/docker-library/ruby/blob/36c87bb64362de2e6e9ea003104030ca2a5fc4e5/2.3/stretch/slim/Dockerfile
+# https://github.com/docker-library/ruby/blob/fc6fd1e86d41ca7efa2737374ca12f73c3bc42ac/Dockerfile-slim.template
 
 RUN yum install -y \
 		bzip2 \
@@ -25,8 +25,8 @@ RUN mkdir -p /usr/local/etc \
 ENV RUBY_MAJOR 2.3
 ENV RUBY_VERSION 2.3.8
 ENV RUBY_DOWNLOAD_SHA256 910f635d84fd0d81ac9bdee0731279e6026cb4cd1315bbbb5dfb22e09c5c1dfe
-ENV RUBYGEMS_VERSION 2.7.7
-ENV BUNDLER_VERSION 1.16.6
+ENV RUBYGEMS_VERSION 2.7.8
+ENV BUNDLER_VERSION 1.17.1
 
 # some of ruby's build scripts are written in ruby
 #   we purge system ruby later to make sure our final image uses what we just built

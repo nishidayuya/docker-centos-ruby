@@ -2,10 +2,7 @@ FROM nishidayuya/centos-buildpack-deps:centos7
 MAINTAINER Yuya.Nishida.
 
 # The following is based on:
-# https://github.com/docker-library/ruby/blob/36c87bb64362de2e6e9ea003104030ca2a5fc4e5/2.3/stretch/slim/Dockerfile
-#
-# And environments from:
-# https://github.com/docker-library/ruby/blob/b5ef401d348ca9b1d9f6a5cb4b25f32bf013daca/2.2/jessie/Dockerfile
+# https://github.com/docker-library/ruby/blob/fc6fd1e86d41ca7efa2737374ca12f73c3bc42ac/Dockerfile-debian.template
 
 # skip installing gem documentation
 RUN mkdir -p /usr/local/etc \
@@ -17,8 +14,8 @@ RUN mkdir -p /usr/local/etc \
 ENV RUBY_MAJOR 2.2
 ENV RUBY_VERSION 2.2.10
 ENV RUBY_DOWNLOAD_SHA256 bf77bcb7e6666ccae8d0882ea12b05f382f963f0a9a5285a328760c06a9ab650
-ENV RUBYGEMS_VERSION 2.7.7
-ENV BUNDLER_VERSION 1.16.2
+ENV RUBYGEMS_VERSION 2.7.8
+ENV BUNDLER_VERSION 1.17.1
 
 # some of ruby's build scripts are written in ruby
 #   we purge system ruby later to make sure our final image uses what we just built
