@@ -18,6 +18,8 @@ A Docker image for Ruby, which is same as official Ruby image (see below), but b
 * [`2.4.5-slim-centos7`, `2.4-slim-centos7` (*2.4/centos7/slim/Dockerfile*)](https://github.com/nishidayuya/docker-centos-ruby/blob/master/2.4/centos7/slim/Dockerfile)
 * [`2.3.8-centos7`, `2.3-centos7` (*2.3/centos7/Dockerfile*)](https://github.com/nishidayuya/docker-centos-ruby/blob/master/2.3/centos7/Dockerfile)
 * [`2.3.8-slim-centos7`, `2.3-slim-centos7` (*2.3/centos7/slim/Dockerfile*)](https://github.com/nishidayuya/docker-centos-ruby/blob/master/2.3/centos7/slim/Dockerfile)
+* [`2.2.10-centos7`, `2.2-centos7` (*2.2/centos7/Dockerfile*)](https://github.com/nishidayuya/docker-centos-ruby/blob/master/2.2/centos7/Dockerfile)
+* [`2.2.10-slim-centos7`, `2.2-slim-centos7` (*2.2/centos7/slim/Dockerfile*)](https://github.com/nishidayuya/docker-centos-ruby/blob/master/2.2/centos7/slim/Dockerfile)
 
 # Usage
 
