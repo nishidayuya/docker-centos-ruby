@@ -10,10 +10,10 @@ A Docker image for Ruby, which is same as official Ruby image (see below), but b
 
 # Supported tags and respective `Dockerfile` links
 
-* [`2.6.0-rc2-centos7`, `2.6-rc-centos7`, `rc-centos7` (*2.6-rc/centos7/Dockerfile*)](https://github.com/nishidayuya/docker-centos-ruby/blob/master/2.6-rc/centos7/Dockerfile)
-* [`2.6.0-rc2-slim-centos7`, `2.6-rc-slim-centos7`, `rc-slim-centos7` (*2.6-rc/centos7/slim/Dockerfile*)](https://github.com/nishidayuya/docker-centos-ruby/blob/master/2.6-rc/centos7/slim/Dockerfile)
-* [`2.5.3-centos7`, `2.5-centos7`, `2-centos7`, `centos7` (*2.5/centos7/Dockerfile*)](https://github.com/nishidayuya/docker-centos-ruby/blob/master/2.5/centos7/Dockerfile)
-* [`2.5.3-slim-centos7`, `2.5-slim-centos7`, `2-slim-centos7`, `slim-centos7` (*2.5/centos7/slim/Dockerfile*)](https://github.com/nishidayuya/docker-centos-ruby/blob/master/2.5/centos7/slim/Dockerfile)
+* [`2.6.0-centos7`, `2.6-centos7`, `2-centos7`, `centos7` (*2.6/centos7/Dockerfile*)](https://github.com/nishidayuya/docker-centos-ruby/blob/master/2.6/centos7/Dockerfile)
+* [`2.6.0-slim-centos7`, `2.6-slim-centos7`, `2-slim-centos7`, `slim-centos7` (*2.6/centos7/slim/Dockerfile*)](https://github.com/nishidayuya/docker-centos-ruby/blob/master/2.6/centos7/slim/Dockerfile)
+* [`2.5.3-centos7`, `2.5-centos7` (*2.5/centos7/Dockerfile*)](https://github.com/nishidayuya/docker-centos-ruby/blob/master/2.5/centos7/Dockerfile)
+* [`2.5.3-slim-centos7`, `2.5-slim-centos7` (*2.5/centos7/slim/Dockerfile*)](https://github.com/nishidayuya/docker-centos-ruby/blob/master/2.5/centos7/slim/Dockerfile)
 * [`2.4.5-centos7`, `2.4-centos7` (*2.4/centos7/Dockerfile*)](https://github.com/nishidayuya/docker-centos-ruby/blob/master/2.4/centos7/Dockerfile)
 * [`2.4.5-slim-centos7`, `2.4-slim-centos7` (*2.4/centos7/slim/Dockerfile*)](https://github.com/nishidayuya/docker-centos-ruby/blob/master/2.4/centos7/slim/Dockerfile)
 * [`2.3.8-centos7`, `2.3-centos7` (*2.3/centos7/Dockerfile*)](https://github.com/nishidayuya/docker-centos-ruby/blob/master/2.3/centos7/Dockerfile)
